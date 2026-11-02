@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Property Enquiry | Sterling & Co. Properties Cape Town</title>
+<meta name="description" content="Submit a property enquiry to Sterling & Co. Properties. Buying, selling, renting or valuation requests are handled promptly by our Cape Town team.">
+<meta name="keywords" content="property enquiry Cape Town, sell house Cape Town, buy apartment Sea Point, valuation request">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+<div class="navbar">
+<a href="index.html" class="site-logo">
+STERLING &amp; CO.
+<span>Properties</span>
+</a>
+
+<button class="nav-toggle" aria-label="Toggle navigation menu">
+<span></span>
+<span></span>
+<span></span>
+</button>
+
+<nav>
+<ul class="nav-menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Properties &amp; Services</a></li>
+<li><a href="enquiry.html" class="active">Enquiry</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<!-- ============ MAIN CONTENT ============ -->
+<main>
+
+<!-- Page Intro -->
+<section>
+<div class="container">
+<h1 class="section-title">Property Enquiry</h1>
+<p class="section-subtitle">Tell Us What You're Looking For</p>
+<p class="text-center">
+Whether you're buying, selling, renting, or would like a
+valuation, fill in the form below and a member of our team will
+be in touch within one business day.
+</p>
+</div>
+</section>
+
+<!-- Enquiry Form -->
+<section class="alt-bg">
+<div class="container">
+
+<!-- data-validate hooks this form into js/script.js for basic validation -->
+<form action="#" method="post" data-validate>
+
+<!-- Success message, revealed by JavaScript after a valid submission -->
+<div class="form-success">
+Thank you! Your enquiry has been received. A Sterling &amp; Co. agent will contact you shortly.
+</div>
+
+<div class="form-group">
+<label for="full-name">Full Name *</label>
+<input type="text" id="full-name" name="full-name" required>
+</div>
+
+<div class="form-group">
+<label for="email">Email Address *</label>
+<input type="email" id="email" name="email" required>
+</div>
+
+<div class="form-group">
+<label for="phone">Phone Number *</label>
+<input type="tel" id="phone" name="phone" required>
+</div>
+
+<div class="form-group">
+<label for="enquiry-type">Enquiry Type *</label>
+<select id="enquiry-type" name="enquiry-type" required>
+<option value="">-- Please select --</option>
+<option value="buying">Buying a Property</option>
+<option value="selling">Selling a Property</option>
+<option value="renting">Renting a Property</option>
+<option value="valuation">Requesting a Valuation</option>
+<option value="commercial">Commercial Property</option>
+<option value="general">General Enquiry</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="property-interest">Property of Interest (Optional)</label>
+<input type="text" id="property-interest" name="property-interest" placeholder="e.g. Sea Point Ocean-View Apartment">
+</div>
+
+<div class="form-group">
+<label for="budget">Approximate Budget (Optional)</label>
+<input type="text" id="budget" name="budget" placeholder="e.g. R2,000,000 - R3,000,000">
+</div>
+
+<div class="form-group">
+<label for="message">Message *</label>
+<textarea id="message" name="message" required placeholder="Tell us more about what you're looking for..."></textarea>
+</div>
+
+<div class="form-group">
+<label>
+<input type="checkbox" name="newsletter" style="width:auto; display:inline-block;">
+Sign me up for new-listing alerts and market updates
+</label>
+</div>
+
+<button type="submit" class="btn">Submit Enquiry</button>
+</form>
+
+</div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<h4>Sterling &amp; Co. Properties</h4>
+<p>Your next property starts here. Serving Cape Town and the Western Cape since 2011.</p>
+</div>
+<div>
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Properties &amp; Services</a></li>
+<li><a href="enquiry.html">Enquiry</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4>Contact</h4>
+<ul>
+<li>12 Main Road, Claremont, Cape Town</li>
+<li>+27 21 555 0132</li>
+<li>info@sterlingproperties.co.za</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; <span id="current-year"></span> Sterling &amp; Co. Properties. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
